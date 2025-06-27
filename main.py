@@ -5,7 +5,7 @@ from ultralytics import YOLO
 from deep_sort_realtime.deepsort_tracker import DeepSort
 
 # to load your custom-trained YOLOv8 model
-model = YOLO("topic2_model.pt")  # or "best.pt"
+model = YOLO("best.pt")  # or "best.pt"
 
 #to load the input video
 cap = cv2.VideoCapture("15sec_input_720p - Copy.mp4")
